@@ -1,9 +1,9 @@
 ---
 template: ContactPage
 slug: contact
-title: Contact
+title: KS Finearts
 featuredImage: 'https://ucarecdn.com/8be6a6b5-8aff-401d-ae13-e6dc4d2ade97/'
-subtitle: This is the contact page subtitle.
+subtitle: Contact Form
 address: 'Wroclaw, Poland'
 phone: + 48 690 347 524
 email: store@ks-finearts.com

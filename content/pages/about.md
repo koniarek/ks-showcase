@@ -1,9 +1,9 @@
 ---
 template: ComponentsPage
 slug: about
-title: About
+title: KS Finearts
 featuredImage: 'https://ucarecdn.com/8be6a6b5-8aff-401d-ae13-e6dc4d2ade97/'
-subtitle: This is the about page subtitle.
+subtitle: About Us
 section1: >-
   ## This is a container component
 
