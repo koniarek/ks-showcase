@@ -25,6 +25,7 @@ export const ComponentsPageTemplate = ({
 }) => (
   <main>
     <PageHeader
+      large
       title={title}
       subtitle={subtitle}
       backgroundImage={featuredImage}
