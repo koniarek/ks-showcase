@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="858px" height="345px" viewBox="0 0 858 345" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Cover Photo@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="53.8561022%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#DD5965" offset="0%"></stop>
+            <stop stop-color="#DC99A0" offset="98.2659417%"></stop>
+            <stop stop-color="#D8D8D8" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#C80557" stop-opacity="0.821350524" offset="0%"></stop>
+            <stop stop-color="#97022C" stop-opacity="0.821350524" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Cover-Photo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" stroke="url(#linearGradient-2)" fill="url(#linearGradient-1)" cx="429" cy="180" r="129.5"></circle>
+        <text id="K-S" font-family="BrushScriptMT, Brush Script MT" font-size="60" font-weight="normal" letter-spacing="1.28571429" fill="#000303">
+            <tspan x="380.183733" y="129">K</tspan>
+            <tspan x="420.815151" y="129" font-family="Apple-Chancery, Apple Chancery"> </tspan>
+            <tspan x="438.770787" y="129">S</tspan>
+        </text>
+        <text id="F-I-N-E-A-R-T-S." font-family="AirbnbCerealApp-Book, Airbnb Cereal App" font-size="21" font-weight="300" letter-spacing="0.45" fill="#000303">
+            <tspan x="359.9915" y="231">F I N E A R T S.</tspan>
+        </text>
+        <path d="M342,200.25 C374.521737,200.342919 404.80676,200.429448 432.85507,200.509586 C460.90338,200.589724 488.95169,200.669862 517,200.75" id="Line" stroke="#E4175D" fill="#E4175D" stroke-linecap="square"></path>
+    </g>
+</svg>

@@ -1,0 +1,10 @@
+.footer {
+  padding: 2rem 0;
+  background: black;
+  font-size: 1.2rem;
+}
+
+.footer a {
+  color: #d7e4f9;
+  text-decoration: none;
+}

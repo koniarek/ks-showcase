@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1536px" height="790px" viewBox="0 0 1536 790" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Cover Photo@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="53.8561022%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#DD5965" offset="0%"></stop>
+            <stop stop-color="#DC99A0" offset="98.2659417%"></stop>
+            <stop stop-color="#D8D8D8" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#C80557" stop-opacity="0.821350524" offset="0%"></stop>
+            <stop stop-color="#97022C" stop-opacity="0.821350524" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Cover-Photo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#000000" x="0" y="0" width="1536" height="790"></rect>
+        <circle id="Oval" stroke="url(#linearGradient-2)" fill="url(#linearGradient-1)" cx="768" cy="395" r="129.5"></circle>
+        <text id="K-S" font-family="BrushScriptMT, Brush Script MT" font-size="60" font-weight="normal" letter-spacing="1.28571429" fill="#000303">
+            <tspan x="719.183733" y="351">K</tspan>
+            <tspan x="759.815151" y="351" font-family="Apple-Chancery, Apple Chancery"> </tspan>
+            <tspan x="777.770787" y="351">S</tspan>
+        </text>
+        <text id="F-I-N-E-A-R-T-S." font-family="AirbnbCerealApp-Book, Airbnb Cereal App" font-size="21" font-weight="300" letter-spacing="0.45" fill="#000303">
+            <tspan x="700.9915" y="446">F I N E A R T S.</tspan>
+        </text>
+        <path d="M683,416.25 C715.521737,416.342919 745.80676,416.429448 773.85507,416.509586 C801.90338,416.589724 829.95169,416.669862 858,416.75" id="Line" stroke="#E4175D" fill="#E4175D" stroke-linecap="square"></path>
+    </g>
+</svg>
