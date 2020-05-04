@@ -1,21 +1,58 @@
 ---
 template: SinglePost
-title: Trees
-status: Published
-date: '2018-05-25'
-featuredImage: 'https://ucarecdn.com/52b27af8-262d-4e2c-9773-15125ab8a5b2/'
+title: Untitled12
+status: Featured / Published
+date: '2018-03-27'
+featuredImage: 'https://ucarecdn.com/94633346-778b-4474-8039-b18280ec73a3/'
 excerpt: >-
-  This is placeholder text that our web designers put here to make sure words
-  appear properly on your website. This text is going to be replaced once the
-  website is completed. You are currently reading text that is written in
-  English, not any other language.
+  Etiam ac quam eget lectus venenatis ullamcorper sit amet non arcu. Nullam
+  interdum arcu vitae augue pulvinar sodales. Sed non dui diam. Quisque lectus
+  est, lobortis ac efficitur vitae, posuere a mauris. Phasellus ac dui
+  pellentesque, lacinia risus ut, imperdiet eros.
 categories:
   - category: Paintings
 meta:
+  canonicalLink: ''
   description: test meta description
+  noindex: false
   title: test meta title
 ---
 
-This is placeholder text that our web designers put here to make sure words appear properly on your website. This text is going to be replaced once the website is completed. You are currently reading text that is written in English, not any other language.
+Paragraphs are separated by a blank line.
 
-Be careful not to waste too much time reading placeholder text! This text isnât going to remain here because it doesn't pertain to the website. This paragraph has been copied from a program that automatically generates paragraphs like this. It is useful for web designers to use placeholder text so they can easily see what different fonts look like on a realistic paragraph.
+![Test Image](https://ucarecdn.com/ac9898a0-413a-467b-95fa-0a9959c30710/)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Id64silK_7M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+The second paragraph. This is placeholder text that our web designers put here to make sure words appear properly on your website. _Italic_, **bold**, and `monospace`.
+
+### Unordered lists:
+
+- this one
+- that one
+- the other one
+
+### Ordered lists:
+
+1. first item
+2. second item
+3. third item
+
+> Block quotes are written like so.
+>
+> They can span multiple paragraphs,
+> if you like.
+
+## Heading 2
+
+# Heading 1
+
+## Heading 2
+
+### Heading 3
+
+#### Heading 4
+
+##### Heading 5
+
+###### Heading 6

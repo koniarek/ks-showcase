@@ -1,6 +1,5 @@
 import React, { Component, Fragment } from 'react'
 import { X } from 'react-feather'
-
 import './Popup.css'
 
 class Popup extends Component {
@@ -11,7 +10,7 @@ class Popup extends Component {
 
   togglePopup() {
     this.setState({
-      showPopup: !this.state.showPopup
+      showPopup: !this.state.showPopup,
     })
   }
 
@@ -20,9 +19,8 @@ class Popup extends Component {
     return (
       <Fragment>
         <div className="taCenter">
-          <h3> Simple Popup Example</h3>
           <div class="Button" onClick={this.togglePopup.bind(this)}>
-            Click To Launch Popup
+            Ask for Price
           </div>
         </div>
 

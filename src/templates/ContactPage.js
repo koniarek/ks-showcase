@@ -18,7 +18,7 @@ export const ContactPageTemplate = ({
   address,
   phone,
   email,
-  locations
+  locations,
 }) => (
   <main className="Contact">
     <PageHeader
@@ -55,7 +55,6 @@ export const ContactPageTemplate = ({
             )}
           </div>
         </div>
-
         <div>
           <FormSimpleAjax name="Simple Form Ajax" />
         </div>

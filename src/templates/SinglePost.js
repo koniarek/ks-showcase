@@ -6,14 +6,16 @@ import { ChevronLeft } from 'react-feather'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
 import './SinglePost.css'
+import Popup from '../components/Popup'
 
 export const SinglePostTemplate = ({
   title,
   date,
   body,
+  section1,
   nextPostURL,
   prevPostURL,
-  categories = []
+  categories = [],
 }) => (
   <main>
     <article
@@ -22,7 +24,7 @@ export const SinglePostTemplate = ({
       itemType="http://schema.org/BlogPosting"
     >
       <div className="container skinny">
-        <Link className="SinglePost--BackButton" to="/blog/">
+        <Link className="SinglePost--BackButton" to="/store/">
           <ChevronLeft /> BACK
         </Link>
         <div className="SinglePost--Content relative">
@@ -61,8 +63,12 @@ export const SinglePostTemplate = ({
 
           <div className="SinglePost--InnerContent">
             <Content source={body} />
+            <div className="container">
+              <Popup>
+                <Content source={section1} />
+              </Popup>
+            </div>
           </div>
-
           <div className="SinglePost--Pagination">
             {prevPostURL && (
               <Link

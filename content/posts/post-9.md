@@ -1,16 +1,16 @@
 ---
 template: SinglePost
-title: Sign
+title: Untitled09
 status: Featured / Published
 date: '2018-03-27'
-featuredImage: 'https://ucarecdn.com/157877ea-a2cb-49b6-8130-768fbe1a60a7/'
+featuredImage: 'https://ucarecdn.com/94633346-778b-4474-8039-b18280ec73a3/'
 excerpt: >-
   Etiam ac quam eget lectus venenatis ullamcorper sit amet non arcu. Nullam
   interdum arcu vitae augue pulvinar sodales. Sed non dui diam. Quisque lectus
   est, lobortis ac efficitur vitae, posuere a mauris. Phasellus ac dui
   pellentesque, lacinia risus ut, imperdiet eros.
 categories:
-  - category: Prints
+  - category: Paintings
 meta:
   canonicalLink: ''
   description: test meta description
