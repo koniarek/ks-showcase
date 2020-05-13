@@ -121,7 +121,7 @@ class ContactForm extends React.Component {
           <input
             className="Button Form--SubmitButton"
             type="submit"
-            value="Enquire"
+            value="ASK FOR PRICE"
             disabled={this.state.disabled}
           />
         </form>

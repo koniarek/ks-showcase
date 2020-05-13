@@ -5,7 +5,7 @@ title: KS Finearts
 featuredImage: 'https://ucarecdn.com/8be6a6b5-8aff-401d-ae13-e6dc4d2ade97/'
 subtitle: 'Our most versatile works. Always in the move, never settle.'
 section1: >-
-  ## KS Finearts - Art Collective
+  # KS Finearts - Art Collective
   
   KS Fine Arts - collective that mixes different forms of visual arts - Painting, Mural Painting, Design & Photography.
   We are creating together since August 2019, based in Wroclaw, Poland. 

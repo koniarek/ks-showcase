@@ -6,7 +6,7 @@ export default () => (
     <div className="container taCenter">
       <span>
         © Copyright {new Date().getFullYear()}. All rights reserved. Crafted by{' '}
-        <a href="https:/sk-webdesign.pl/">SK Web Design</a>.
+        <a href="https://skvdesigns.com//">SK Web Designs</a>.
       </span>
     </div>
   </footer>

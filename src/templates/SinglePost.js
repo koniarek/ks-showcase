@@ -2,17 +2,17 @@ import React, { Fragment } from 'react'
 import _get from 'lodash/get'
 import { Link, graphql } from 'gatsby'
 import { ChevronLeft } from 'react-feather'
-
+import Gallery from '../components/Gallery'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
 import './SinglePost.css'
-import Popup from '../components/Popup'
+import ContactForm from '../components/ContactForm'
 
 export const SinglePostTemplate = ({
   title,
   date,
   body,
-  section1,
+  gallery,
   nextPostURL,
   prevPostURL,
   categories = [],
@@ -24,7 +24,7 @@ export const SinglePostTemplate = ({
       itemType="http://schema.org/BlogPosting"
     >
       <div className="container skinny">
-        <Link className="SinglePost--BackButton" to="/store/">
+        <Link className="SinglePost--BackButton" to="/home/">
           <ChevronLeft /> BACK
         </Link>
         <div className="SinglePost--Content relative">
@@ -63,10 +63,14 @@ export const SinglePostTemplate = ({
 
           <div className="SinglePost--InnerContent">
             <Content source={body} />
+            <section className="section">
+              <div className="container">
+                <h2>New pieces for sell</h2>
+                <Gallery images={gallery} />
+              </div>
+            </section>
             <div className="container">
-              <Popup>
-                <Content source={section1} />
-              </Popup>
+              <ContactForm />
             </div>
           </div>
           <div className="SinglePost--Pagination">
@@ -121,6 +125,7 @@ export const pageQuery = graphql`
   ## query name must be unique to this file
   query SinglePost($id: String!) {
     post: markdownRemark(id: { eq: $id }) {
+      ...Gallery
       ...Meta
       html
       id
